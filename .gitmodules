@@ -1,0 +1,9 @@
+[submodule "loader-core"]
+	path = dep/loader-core
+	url = https://github.com/gw2-addon-loader/loader-core
+[submodule "imgui"]
+	path = dep/imgui
+	url = https://github.com/ocornut/imgui
+[submodule "dep/lib_imgui"]
+	path = dep/lib_imgui
+	url = https://github.com/gw2-addon-loader/lib_imgui.git

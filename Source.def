@@ -1,5 +1,14 @@
-LIBRARY gw2addon_custom_d3d9.dll
+LIBRARY gw2addon_arcdps_loader.dll
 EXPORTS
 	gw2addon_get_description
 	gw2addon_load
 	gw2addon_unload
+	e0
+	e3
+	e5
+	e6
+	e7
+	e8
+	e9
+	addextension2
+	freeextension2
