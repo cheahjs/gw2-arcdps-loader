@@ -7,18 +7,63 @@
     <Filter Include="include">
       <UniqueIdentifier>{72c6d804-ba50-4570-a6d5-6b84f36b091a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="dep">
+      <UniqueIdentifier>{493e88c8-860a-4603-8ebc-f4d69812db8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dep\imgui">
+      <UniqueIdentifier>{7ecd6476-0812-4d05-a1e2-4e36e0ba8327}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Dropbox\SVNs\gw2-arcdps-loader\src\arcdps-loader.cpp">
+    <ClCompile Include="src\addon.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Dropbox\SVNs\gw2-arcdps-loader\src\dllmain.cpp">
+    <ClCompile Include="dep\imgui\imgui.cpp">
+      <Filter>dep\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dep\imgui\imgui_draw.cpp">
+      <Filter>dep\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dep\imgui\imgui_tables.cpp">
+      <Filter>dep\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dep\imgui\imgui_widgets.cpp">
+      <Filter>dep\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Exports.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gui.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Dropbox\SVNs\gw2-arcdps-loader\include\arcdps-loader.h">
+    <ClInclude Include="include\addon.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="dep\imgui\imconfig.h">
+      <Filter>dep\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dep\imgui\imgui.h">
+      <Filter>dep\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dep\imgui\imgui_internal.h">
+      <Filter>dep\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Exports.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Gui.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source.def" />
   </ItemGroup>
 </Project>
